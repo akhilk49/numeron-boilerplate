@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .game-cover {
@@ -71,13 +73,12 @@ body {
 }
 
 #timer {
-    width: 10%;
     position: absolute;
     top: 5vh;
     right: 5vh;
-    font-size: 6vw;
-    border: 1px solid white;
-    border-radius: 3px;
+    font-size: 3vw;
+    /* border: 1px solid white;
+    border-radius: 3px; */
 }
 
 #game-over-text {
